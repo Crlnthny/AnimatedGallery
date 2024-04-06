@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial scale=1.0">
+	<title>Gallery Page</title>
+	<style>
+
+		*{
+			box-sizing: border-box;
+		}
+
+		body{
+			margin: 0;
+		}
+
+		.row{
+			padding: 50px;
+		}
+
+		.col1{
+			width: 25%;
+			padding: 10px 10px 20px 10px;
+			border: 2px solid black;
+			background-color: #353535;
+			box-shadow: 10px 10px 5px gray;
+			float: left;
+			-ms-transform: rotate(7deg);
+			-webkit-transform: rotate(7deg);
+			transform: rotate(7deg);
+		}
+
+		.col1 span{
+			font-weight: bold;
+			font-size: 25px;
+		}
+
+		.col1:hover{
+			transform: rotate(0deg);
+		}
+
+		.col2{
+			width: 25%;
+			padding: 10px 10px 20px 10px;
+			border: 2px solid black;
+			background-color: pink;
+			box-shadow: 10px 10px 5px gray;
+			float: left;
+			-ms-transform: rotate(-8deg);
+			-webkit-transform: rotate(-8deg);
+			transform: rotate(-8deg);
+		}
+
+		.col2 span{
+			font-weight: bold;
+			font-size: 25px;
+		}
+
+		.col2:hover{
+			transform: rotate(0deg);
+		}
+
+		.col3{
+			width: 25%;
+			padding: 10px 10px 20px 10px;
+			border: 2px solid black;
+			background-color: #ad250a;
+			box-shadow: 10px 10px 5px gray;
+			float: left;
+			-ms-transform: rotate(7deg);
+			-webkit-transform: rotate(7deg);
+			transform: rotate(7deg);
+		}
+
+		.col3 span{
+			font-weight: bold;
+			font-size: 25px;
+		}
+
+		.col3:hover{
+			transform: rotate(0deg);
+		}
+
+		.col4{
+			width: 25%;
+			padding: 10px 10px 20px 10px;
+			border: 2px solid black;
+			background-color: blue;
+			box-shadow: 10px 10px 5px gray;
+			float: left;
+			-ms-transform: rotate(-8deg);
+			-webkit-transform: rotate(-8deg);
+			transform: rotate(-8deg);
+		}
+
+		.col4 span{
+			font-weight: bold;
+			font-size: 25px;
+		}
+
+		.col4:hover{
+			transform: rotate(0deg);
+		}
+
+		.row:after{
+			content: " ";
+			display: table;
+			clear: both;
+		}
+
+		@media screen and (max-width: 600px) {
+			.col1{
+				width: 100%;
+			}
+
+			.col2{
+				width: 100%;
+			}
+
+			.col3{
+				width: 100%;
+			}
+
+			.col4{
+				width: 100%;
+			}
+		}
+
+
+	</style>
+
+</head>
+<body>
+
+	<div class="row">
+
+		<div class="col1">
+			<img src="img/akamee.jpg" width="100%">
+			<span>Akame</span>
+			<p class="desc1"> Akame (アカメ) is the titular female protagonist of the story. She has long black hair, red eyes, and a cold, serious demeanor.[5] Sold along with her sister Kurome to the Empire at a young age, she becomes one of the Elite Seven assassins under Gozuki. Despite her serious attitude in battle, she displays genuine concern for her comrades. During a mission to assassinate former general Najenda, she is convinced by the latter to join Night Raid and the cause against the Empire.[ch. 3] Her treason sparks an intense rivalry between fellow assassin and sibling Kurome, along with a mutual desire to be the one to end the other.</p>
+		</div>
+
+		<div class="col2">
+			<img src="img/mine.jpg" width="100%">
+			<span>Mine</span>
+			<p class="desc2"> Mine (マイン, Main) serves as the sniper of Night Raid. She has pink hair styled in twin tails and pink eyes.[5] She initially shows a cold exterior and hates Tatsumi after he joined the group, but warms up to Tatsumi after he rescues her from Seryu's suicide nuclear bombing attack.[vol. 1] In her childhood, she suffered harsh discrimination and racism for her half-foreign blood during her childhood; she ran away with joining the Revolutionary Army with hopes that when Army wins, there will be more acceptance of different races. </p>
+		</div>
+
+		<!-- -->
+		<div class="col3">
+			<img src="img/chelsea.jpg" width="100%">
+			<span>Chelsea</span>
+			<p class="desc3">Chelsea (チェルシー, Cherushī) is a ginger-haired assassin who is dressed like a Japanese schoolgirl, wearing a shirt with white sleeves and plaid collar, a black vest, plaid skirt, and tall boots. She also wears headphones with a black butterfly hairpiece. She is almost always seen sucking on a lollipop.[vol. 5:rough sketches 4]The sole surviving operative of a Night Raid regional team, she joins Najenda to fight the Jaegers. </p>
+		</div>
+
+		<div class="col4">
+			<img src="img/esdeath.webp" width="100%">
+			<span>Esdeath</span>
+			<p class="desc4">General Esdeath (in Japanese: エスデス, Esudesu) is the secondary antagonist of the manga Akame Ga Kill!, and the 2014 anime adaptation of the same name. She is a high-ranking general and the most dangerous warrior of the Empire, one of the most powerful Teigu users in the world and the leader of the Jaegers. She also serves as the biggest physical threat of the series. She is the archenemy of both Najenda and Tatsumi. </p>
+		</div>
+		
+	</div>
+
+</body>
+</html>
